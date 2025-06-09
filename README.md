@@ -54,9 +54,8 @@ Visual representation available in `wokwi.png`.
 
 ## 📂 Project Structure
 
-- `main.ino` – Contains the full Arduino logic
-- `wokwi.png` – Circuit diagram from the simulation
-- `BallThrowingDevice.pdf` – Full project documentation and analysis (includes testing and future improvements)
+- `project.ino` – Contains the full Arduino logic
+- `DMP.pdf` – Full project documentation and analysis (includes testing and future improvements)
 
 ---
 
