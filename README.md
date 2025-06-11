@@ -37,8 +37,6 @@ The device consists of:
 - Two LEDs for visual feedback
 - A servo motor that triggers the ball-launching mechanism
 
-Visual representation available in `wokwi.png`.
-
 ---
 
 ## 💻 How It Works
