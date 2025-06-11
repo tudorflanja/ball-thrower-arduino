@@ -57,8 +57,34 @@ The device consists of:
 
 ---
 
+## ▶️ How to Run the Project
+
+You can run the project either on real hardware or through the Wokwi simulator:
+
+### Option 1: Run on Physical Arduino Hardware
+
+1. **Hardware Setup**:
+   - Connect the HC-SR04 ultrasonic sensor, servo motor, two LEDs (with resistors), a buzzer, and a push button to an Arduino UNO on a breadboard as shown in the circuit diagram.
+   
+2. **Upload the Code**:
+   - Open `project.ino` in the Arduino IDE.
+   - Connect your Arduino UNO via USB.
+   - Select the correct COM port and board type from **Tools**.
+   - Click **Upload** to flash the code to the board.
+
+3. **Power and Test**:
+   - Power on the board and test interaction using your hand or pet.
+
+### Option 2: Run in Wokwi Simulator
+
+1. Visit: [https://wokwi.com](https://wokwi.com)
+2. Click “Start New Project” and choose **Arduino UNO**.
+3. Replace the default code with the contents of `project.ino`.
+4. Simulate the circuit by connecting components virtually using the GUI.
+5. Click the green **Start** button to run the simulation and test the logic.
+
+---
+
 ## 📝 Conclusion
 
 The Ball Throwing Device for Animals offers an accessible and creative way to blend pet care with embedded systems. With visual and auditory feedback, physical interactivity, and clear expansion potential (e.g., camera, mobile app, or IoT capabilities), this project demonstrates how simple electronics and microcontrollers can enrich animal behavior and play.
-
----
